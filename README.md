@@ -1,6 +1,6 @@
 # CFXKMeans
 CFXKMeans library is an open-source, optimized library for K-means clustering analysis developed by [Colfax Research](https://colfaxresearch.com).
-Development of the library is described in detail in the white paper, "Optimization of Hamerly’s K-Means Clustering Algorithm: CFXKMeans Library" [webpage](https://colfaxresearch.com).
+Development of the library is described in detail in the white paper, "Optimization of Hamerly’s K-Means Clustering Algorithm: CFXKMeans Library" [webpage](https://colfaxresearch.com/cfxkmeans).
 
 # Installation
 #### C/C++ API
@@ -75,6 +75,6 @@ For Intel Xeon processors we have found the folloing to give the best performanc
 ```
 
 # Design and TODO
-CFXKMeans library was originally developed as an excersize in code modernization (see [white paper](https://colfaxresearch.com)) of the computational workload (minimizing within-cluster variance).
+CFXKMeans library was originally developed as an excersize in code modernization (see [white paper](https://colfaxresearch.com/cfxkmeans)) of the computational workload (minimizing within-cluster variance).
 So features such as choosing the initial centroids or computing the final variance total have not been implemented yet.
 These features may be added in the future.
